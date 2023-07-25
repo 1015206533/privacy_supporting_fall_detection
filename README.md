@@ -26,7 +26,7 @@ Our approach achieves state-of-the-art results in the unsupervised
 RGB2Depth domain adaptation task for fall detection.
 
 <div align="center">
-  <img src="https://github.com/1015206533/privacy_supporting_fall_detection/tree/master/resources/introduction.png" width="800px"/><br>
+  <img src="https://github.com/1015206533/privacy_supporting_fall_detection/tree/master/resources/introduction.jpg" width="800px"/><br>
     <p style="font-size:1.5vw;">Unsupervised Modality Adaptation for Fall Detection (UMA-FD)</p>
 </div>
 
