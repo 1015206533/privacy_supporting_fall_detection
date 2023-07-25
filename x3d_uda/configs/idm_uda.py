@@ -9,7 +9,7 @@ train_dataset_type = 'IDMUdaRawframeDataset'
 val_dataset_type = 'UdaRawframeDataset'
 data_root = ''
 data_root_val = ''
-
+ 
 ##########################################################################
 # kinetics 700 数据集
 ann_file_train = 'data/kinetics_700/annotation/idm_train_rgb_unsim.txt&&data/kinetics_700/annotation/idm_train_depth_unsim.txt'
