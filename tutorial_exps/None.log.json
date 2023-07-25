@@ -1,0 +1,3 @@
+{"hook_msgs": {}}
+{"mode": "val", "epoch": 5, "iter": 5, "lr": 8e-05, "top1_acc": 0.7, "top5_acc": 1.0, "mean_class_accuracy": 0.7}
+{"mode": "val", "epoch": 10, "iter": 5, "lr": 8e-05, "top1_acc": 0.8, "top5_acc": 1.0, "mean_class_accuracy": 0.8}

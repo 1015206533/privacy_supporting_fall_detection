@@ -1,0 +1,12 @@
+/.idea/
+*/__pycache__*
+*.pyc
+*.pth
+*.log
+*.pkl
+*.gif
+*.mp4
+/checkpoints
+/data
+/work_dirs
+/logs
