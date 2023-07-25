@@ -1,6 +1,6 @@
 
 ## Introduction
-Towards Privacy-Supporting Fall Detection via Deep Unsupervised RGB2Depth Adaptation
+**Towards Privacy-Supporting Fall Detection via Deep Unsupervised RGB2Depth Adaptation**
 
 Fall detection is a vital task in health monitoring, as
 it allows the system to trigger an alert and therefore enabling
