@@ -52,8 +52,18 @@ pip3 install tensorboard
 
 ## Dataset
 
-In the experiments of the paper, we use part data of of [NTU RGB+D](https://rose1.ntu.edu.sg/dataset/actionRecognition/) and [kinetics-700](https://github.com/cvdfoundation/kinetics-dataset). The data label used is under the data folder. According to the data label, to reproduce the results of the article, we need to download the data from the corresponding link. For the  kinetics-700 dataset, our generated depth data of rgb video has been uploaded to [Baidu](https://github.com/1015206533/privacy_supporting_fall_detection), and the extraction code is 123456.
+In the experiments of the paper, we use part data of of [NTU RGB+D](https://rose1.ntu.edu.sg/dataset/actionRecognition/) and [kinetics-700](https://github.com/cvdfoundation/kinetics-dataset). The data label used is under the data folder. According to the data label, to reproduce the results of the article, we need to download the data from the corresponding link. 
+For the  kinetics-700 dataset, our generated depth data of rgb video has been uploaded to [Baidu](https://github.com/1015206533/privacy_supporting_fall_detection), and the extraction code is 123456.
+Take the file [idm_train_depth_unsim.txt](https://github.com/1015206533/privacy_supporting_fall_detection/blob/master/data/kinetics_700/annotation/idm_train_depth_unsim.txt) as an example to illustrate the organizational form of the data file.
+Below is a line from the data file, and each row has four columns, which respectively represent the data file path, frame number, action label(0 means non-fall and 1 means fall), and modal label(0 means depth date and 1 means rgb data). 
+The last level of the data file directory is the name of the video, and the penultimate level is the category to which the video belongs.
+The images divided into single frame are saved in the corresponding data file directory, and the naming format adopts "img_{:04}.png".format(frame_number), such as the figure below.
 
+```shell
+/home/hejun/dataset/uda/kinetics_700/depth_sample/depth_falling_off_chair/0222_HvWtr0qrUao 28 1 0
+```
+
+![date format](https://raw.githubusercontent.com/1015206533/privacy_supporting_fall_detection/master/resources/data_format.png)
 
 ## Get Started
 
