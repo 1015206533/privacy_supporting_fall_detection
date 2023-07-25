@@ -1,5 +1,7 @@
 
 ## Introduction
+Towards Privacy-Supporting Fall Detection via Deep Unsupervised RGB2Depth Adaptation
+
 Fall detection is a vital task in health monitoring, as
 it allows the system to trigger an alert and therefore enabling
 faster interventions when a person experiences a fall. Although
@@ -22,6 +24,11 @@ and target domains, and a novel adaptive loss weight adjustment
 method for improved coordination among various losses.
 Our approach achieves state-of-the-art results in the unsupervised
 RGB2Depth domain adaptation task for fall detection.
+
+<div align="center">
+  <img src="https://github.com/1015206533/privacy_supporting_fall_detection/tree/master/resources/introduction.png" width="800px"/><br>
+    <p style="font-size:1.5vw;">Unsupervised Modality Adaptation for Fall Detection (UMA-FD)</p>
+</div>
 
 ## Installation 
 The project is developed based on [MMAction2](https://github.com/open-mmlab/mmaction2). 

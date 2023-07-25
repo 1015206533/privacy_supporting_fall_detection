@@ -1,12 +1,12 @@
 /.idea/
 */__pycache__*
 *.pyc
-*.pth
+#*.pth
 *.log
 *.pkl
 *.gif
 *.mp4
-/checkpoints
-/data
+#/checkpoints
+#/data
 /work_dirs
 /logs
