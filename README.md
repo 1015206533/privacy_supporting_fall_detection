@@ -57,7 +57,7 @@ In the experiments of the paper, we use part data of of [NTU RGB+D](https://rose
 
 ## Get Started
 
-We can use the following commands for model training and inference. The file idm_uda.py is the configuration file for the X3D backbone. We can also use the other backbones, such as I3D and C3D, and the corresponding configuration file are i3d_idm_uda.py and c3d_idm_uda.py. The parameters and training data required for model training can be adjusted in the configuration file
+We can use the following commands for model training and inference. The file idm_uda.py is the configuration file for the X3D backbone. We can also use the other backbones, such as I3D and C3D, and the corresponding configuration file are i3d_idm_uda.py and c3d_idm_uda.py. The parameters and training data required for model training can be adjusted in the configuration file. The file test_label.txt is the true label file of the test data, and each line contains the label of a sample.
 
 ```shell
 ./tools/dist_train.sh x3d_uda/configs/idm_uda.py 2 --seed 1024 --validate --test-last --test-best --deterministic
